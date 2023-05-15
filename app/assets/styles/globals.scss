@@ -1,0 +1,55 @@
+/* @import 'app/assets/styles/variables'; */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* font-family: 'Manrope', sans-serif; */
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	text-align: center;
+}
+
+a,
+button,
+input,
+textarea {
+	color: #2666CB;
+	transition: color .2s linear;
+	padding: 5px;
+	margin: 5px;
+}
+
+button,
+input,
+textarea {
+	border: 1px solid #2666CB;
+}
+
+input,
+textarea {
+	background: transparent;
+	outline: none;
+}
+
+a,
+button {
+	&:hover {
+		color: darken(#2666CB, 20%)
+	}
+}
+
+.title {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px 0;
+}

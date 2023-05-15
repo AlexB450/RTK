@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "product one !!!",
+      "description": "When I create new user - role is optional!"
+    },
+    {
+      "id": 2,
+      "name": "two product",
+      "description": "DB set default role and when I select user from DB - role must be in userObject."
+    },
+    {
+      "id": 3,
+      "name": "333",
+      "description": "I can write Interfaces like I've written above, but in a real project this approach creates a lot of redundant code."
+    },
+    {
+      "id": 4,
+      "name": "four",
+      "description": "So, I need some interface, that help me to get old interface and make some optional fields as required."
+    },
+    {
+      "name": "5555",
+      "description": "five five",
+      "id": 5
+    },
+    {
+      "name": "six",
+      "description": "six product",
+      "id": 6
+    },
+    {
+      "name": "seven product ",
+      "description": "I try to change values using PATCH method",
+      "id": 7
+    }
+  ]
+}
